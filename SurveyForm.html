@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+/* css here*/
+body {
+    background-color: darkgray;
+
+
+}
+
+header {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    
+    }
+
+#title {
+    text-align: center;
+
+}
+
+#description {
+    text-align: center;
+}
+
+#jumbotron {
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+</style>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title"> Free Code Camp Project</h1>
+            <h2 id="title">Survey Form</h2>
+            <p id="description" class="description"> Thank you for taking the time to help us improve our service</p>
+
+        </header>
+
+        <form id="survey-form">
+            <!--Name div-->
+            <div class="form-group">
+                <label id="label-name" for="name">
+                    Name
+                </label>
+
+                <input class="form-control" type="text" name="name" id="name" placeholder="Enter Your Name" required>
+
+            </div>
+            <!--Email div-->
+            <div class="form-group">
+                <label id="email-label" for="email" type="email" placeholder="Enter your email">Email</label>
+                <input id="email" type="email" class="form-control" name="email" placeholder="Enter Your Email Address " required="">
+            </div>
+
+            <div class="form-group jumbotron text-white" id="jumbotron" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(img/cook-366875.jpg);">
+                
+                <label class="container">
+                    <p><h3>Please answer the following questions:</h3></p>
+                    <br>
+                    <p>Is the food at Contoso foods always fresh?</p>
+                    <div class="row">
+                        <p class="col">Yes <input class="input-radio" name="user-input" value="Yes" type="radio" checked> </p>
+
+                    </div>
+                    
+                    <div class="row">
+                        <p class="col">No  <input class="input-radio" name="user-input" value="Yes" type="radio" checked> </p>
+
+                    </div>                    
+                
+                </label>
+                
+                <label class="container">
+                    <p>Where you treated professionally by the Contoso staff throughout your visit?</p>
+                    <div class="row">
+                        <p class="col">Yes  <input class="input-radio" name="user-input" value="Yes" type="radio" checked> </p>
+
+                    </div>
+
+                    <div class="row">
+                        <p class="col">No  <input class="input-radio" name="user-input" value="Yes" type="radio" checked> </p>
+
+                    </div>
+
+                </label>
+                
+                <label class="container">
+                    <p>Was this coding exercise challenging?</p>
+                    <div class="row">
+                        <p class="col">Yes  <input class="input-radio" name="user-input" value="Yes" type="radio" checked> </p>
+
+                    </div>
+
+                    <div class="row">
+                        <p class="col">No  <input class="input-radio" name="user-input" value="Yes" type="radio" checked> </p>
+
+                    </div>
+
+                </label>
+                
+                <div class="form-group">
+                    <p>Would like to leave a comment or suggestion?</p>
+                    <textarea class="input-comment" name="comments" id="comments" cols="30" rows="10" placeholder="Enter Your Comment Here"></textarea>
+                </div>
+            </div>
+                
+
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
